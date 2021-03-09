@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music app</title>
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header grid-item">
+            <div class="header_logo-main">
+                <div class="header_logo"><i class="fas fa-play-circle"></i></div>
+                <div class="header_logo-name">DooCloud</div>
+            </div>
+
+            <div class="header_search">
+                <i class="fas fa-search"></i>
+                <input type="text" name="search" id="search" placeholder="Search for songs, artists, albums, etc ...">
+            </div>
+
+            <div class="header_user">
+                <div class="header_user-logo"><i class="fas fa-circle"></i></div>
+                <div class="header_user-name">Huỳnh Minh Danh</div>
+                <div class="header_user-option"><i class="fas fa-chevron-down"></i></div>
+
+            </div>
+        </div>
+        <div class="main grid-item">
+            <div class="main-music">
+                <div class="main-music-title">Music</div>
+                <div class="main-music-item">
+                    <div class="item-icon"><i class="fas fa-home"></i></div>
+                    <div class="item-content">Home</div>
+                </div>
+                <div class="main-music-item">
+                    <div class="item-icon"><i class="fas fa-headphones-alt"></i></div>
+                    <div class="item-content">Songs</div>
+                </div>
+                <div class="main-music-item">
+                    <div class="item-icon"><i class="fas fa-compact-disc"></i></div>
+                    <div class="item-content">Albums</div>
+                </div>
+                <div class="main-music-item">
+                    <div class="item-icon"><i class="far fa-user"></i></div>
+                    <div class="item-content">Artists</div>
+                </div>
+                <div class="main-music-item">
+                    <div class="item-icon"><i class="fas fa-heart"></i></div>
+                    <div class="item-content">Liked</div>
+                </div>
+            </div>
+            <div class="albums-slider">
+                <div class="albums-des">
+                    <h1>Albums</h1>
+                    <div class="albums-item">
+                        <img src="./assets/1.jpg" alt="">
+                        <p>Albums nhac vpop</p>
+                    </div>
+                    <div class="albums-item">
+                        <img src="./assets/3.jpg" alt="">
+                        <p>Albums nhac vpop</p>
+                    </div>
+                    <div class="albums-item">
+                        <img src="./assets/2.jpg" alt="">
+                        <p>Albums nhac vpop</p>
+                    </div>
+
+                </div>
+                <div class="slider">
+                    <div class="slide">
+                        <i class="fas fa-chevron-left diraction"></i>
+                        <img src="./assets/3.jpg" alt="">
+                        <i class="fas fa-chevron-right diraction"></i>
+                    </div>
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="main-nowTranding">
+                <div class="main-nowTranding-title">Now Tranding</div>
+                <div class="nowTranding-item">
+                    <i class="far fa-play-circle icon-play" style="font-size: 20px;"></i>
+                    <div class="item-song">
+
+                        <div class="item-song-name">Bang Bang Bang</div>
+                        <div class="item-song-singer">BigBang</div>
+                    </div>
+                    <div class="item-time">3:00</div>
+                </div>
+                <div class="nowTranding-item">
+                    <i class="far fa-play-circle icon-play" style="font-size: 20px;"></i>
+                    <div class="item-song">
+
+                        <div class="item-song-name">Bang Bang Bang</div>
+                        <div class="item-song-singer">BigBang</div>
+                    </div>
+                    <div class="item-time">3:00</div>
+                </div>
+                <div class="nowTranding-item">
+                    <i class="far fa-play-circle icon-play" style="font-size: 20px;"></i>
+                    <div class="item-song">
+
+                        <div class="item-song-name">Bang Bang Bang</div>
+                        <div class="item-song-singer">BigBang</div>
+                    </div>
+                    <div class="item-time">3:00</div>
+                </div>
+            </div>
+            <div class="main-playlist">
+                <div class="main-music-title">Play List</div>
+                <div class="main-music-item">
+                    <div class="item-icon"><i class="fas fa-list"></i></div>
+                    <div class="item-content">Best of kancheli</div>
+                </div>
+                <div class="main-music-item">
+                    <div class="item-icon"><i class="fas fa-list"></i></i>
+                    </div>
+                    <div class="item-content">Classical music</div>
+                </div>
+                <div class="main-music-item">
+                    <div class="item-icon"><i class="fas fa-list"></i></i>
+                    </div>
+                    <div class="item-content">Mood Booster</div>
+                </div>
+                <div class="main-music-item">
+                    <div class="item-icon"><i class="fas fa-list"></i></div>
+                    <div class="item-content">Crying Heart</div>
+                </div>
+                <div class="main-music-item">
+                    <div class="item-icon"><i class="fas fa-list"></i></div>
+                    <div class="item-content">New Playlist</div>
+                </div>
+            </div>
+            <div class="main-recently"></div>
+            <div class="main-popularArtists"></div>
+        </div>
+        <div class="footer grid-item">
+
+        </div>
+    </div>
+</body>
+
+</html>
